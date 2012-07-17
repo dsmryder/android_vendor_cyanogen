@@ -6,7 +6,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers
 
 # Bring in all audio files
-include frameworks/base/data/sounds/AllAudio.mk
+include frameworks/base/data/sounds/dsmryderaudio.mk
 
 # Include extra dictionaries for LatinIME
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/dictionaries
